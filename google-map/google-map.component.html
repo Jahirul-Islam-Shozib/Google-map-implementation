@@ -1,0 +1,11 @@
+<div class="map">
+  <input #searchBox
+         [ngClass]="{'hidden': !locationSearch}"
+         pInputText
+         type="text"
+         placeholder="Search for a place"
+         class="search-box">
+
+  <div #mapContainer class="map-container"></div>
+</div>
+
